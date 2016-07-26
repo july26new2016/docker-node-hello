@@ -89,5 +89,5 @@ integrations:
         
       on_failure: never
       on_start: always
-      on_success: never
+      on_success: always
       
