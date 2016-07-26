@@ -1,6 +1,7 @@
 # Language setting
 language: node_js
 
+
 # Version number
 node_js:
   - "0.12"
@@ -62,6 +63,7 @@ integrations:
       on_pull_request: always
       on_success: always
       on_failure: always
+      
       
     - integrationName: ship-hipchat
       type: hipchat
