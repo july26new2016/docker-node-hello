@@ -78,7 +78,7 @@ integrations:
       on_success: always
       on_failure: always
       
-    - integrationName: event-test
+    - integrationName: event
       type: webhook
       payload:
         - isPRBuild=$IS_PULL_REQUEST
